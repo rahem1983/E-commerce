@@ -11,16 +11,16 @@
             <div class="sidebar-category ml-0">
 <div class="card">
     <div class="card-header w-100">
-        <p class="sidebar-title text-uppercase"><img src="{{ asset('image/frontLogos/category-icon.png') }}" alt="icon"> <a href="category-list.html" class="text-white">Categories</a></p>
+        <p class="sidebar-title text-uppercase"><img src="{{ asset('image/frontLogos/category-icon.png') }}" alt="icon"> <a href="category-list" class="text-white">Categories</a></p>
     </div>
     <div class="card-body p-0">
         <ul class="category-list">
 
             <li class="category-item js--category-item">
-                <a href="browse/category8bcf.html?id=30" class="text-capitalize category-name">Accessories <i class="fa fa-angle-right text-right"></i></a>
+                <a href="category" class="text-capitalize category-name">Accessories <i class="fa fa-angle-right text-right"></i></a>
 
                 <div class="dropdown-menu">
-                    <a href="browse/category619c.html?id=62" class="d-block">Connector</a><a href="browse/category5aaa.html?id=68" class="d-block">Cable</a><a href="browse/category3c6f.html?id=193" class="d-block">Computer Peripherals</a>
+                    <a href="category" class="d-block">Connector</a><a href="browse/category5aaa.html?id=68" class="d-block">Cable</a><a href="browse/category3c6f.html?id=193" class="d-block">Computer Peripherals</a>
                 </div>
 
             </li>
@@ -237,7 +237,7 @@
         <div class="product-list-header">
             <div class="d-flex align-items-center">
                 <p class="title ml-0 mb-0">Arduino </p>
-                <a href="browse/categoryfb68.html?id=127" class="btn btn-see__more mr-0 text-uppercase">See More</a>
+                <a href="category" class="btn btn-see__more mr-0 text-uppercase">See More</a>
             </div>
         </div>
         <div class="product-list-item">
@@ -349,7 +349,7 @@
         <div class="product-list-header">
             <div class="d-flex align-items-center">
                 <p class="title ml-0 mb-0">Raspberry Pi</p>
-                <a href="browse/category6ce1.html?id=179" class="btn btn-see__more mr-0 text-uppercase">See More</a>
+                <a href="category" class="btn btn-see__more mr-0 text-uppercase">See More</a>
             </div>
         </div>
         <div class="product-list-item">
@@ -461,7 +461,7 @@
         <div class="product-list-header">
             <div class="d-flex align-items-center">
                 <p class="title ml-0 mb-0">New Products</p>
-                <a href="home-detailsdcfd.html?id=4" class="btn btn-see__more mr-0 text-uppercase">See More</a>
+                <a href="home_detail" class="btn btn-see__more mr-0 text-uppercase">See More</a>
             </div>
         </div>
         <div class="product-list-item">

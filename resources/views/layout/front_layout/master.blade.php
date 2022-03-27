@@ -68,65 +68,65 @@
   
   <body>
   
-      <header class="header-section">
-  
-      <section class="header-section-fixed">
-          <div class="content-section">
+
+
+    <header class="header-section">
+        <section class="header-section-fixed">
+           <div class="content-section">
               <div class="d-flex justify-content-between align-items-center">
-                  <a href="index.html" class="ml-0"><img src="{{ asset('image/frontLogos/logo.png') }}" alt="logo" class="img-fluid"></a>
-                  <form class="search-input w-50">
-                      <div class="input-group">
-                          <!-- <div class="input-group-prepend">
-                              <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categories</button>
+                 <a href="/" class="ml-0"><img src="{{ asset('image/frontLogos/logo.png') }}" alt="logo" class="img-fluid"></a>
+                 <form class="search-input w-50">
+                    <div class="input-group">
+                       <!-- <div class="input-group-prepend">
+                          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categories</button>
                           </div>
                           <div role="separator" class="dropdown-divider separator"></div> -->
-                          <input autocomplete="off" type="search" id="js--search-option" placeholder="Search by product name" value="" class="form-control">
-                          <button type="button" class="btn btn-search" id="go-to-search-page"><i class="fa fa-search text-light"></i></button>
-                          <div class="search-option position-absolute d-none" id="js--search-autocomplete"></div>
-                      </div>
-                  </form>
-                  
-                  
-                  <div class="user mr-0">
-      <a href="login.html" class="user-login">
-          <span class="icon-wrapper">
-              <img src="{{ asset('image/frontLogos/user-icon.png') }}" alt="user_icon" class="img-fluid">
-          </span>
-          <span >Login</span>
-      </a>
-  </div>
+                       <input autocomplete="off" type="search" id="js--search-option" placeholder="Search by product name" value="" class="form-control">
+                       <button type="button" class="btn btn-search" id="go-to-search-page"><i class="fa fa-search text-light"></i></button>
+                       <div class="search-option position-absolute d-none" id="js--search-autocomplete"></div>
+                    </div>
+                 </form>
+                 <div class="user mr-0">
+                    <a href="login.html" class="user-login">
+                    <span class="icon-wrapper">
+                    <img src="{{ asset('image/frontLogos/user-icon.png') }}" alt="user_icon" class="img-fluid">
+                    </span>
+                    <span >Login</span>
+                    </a>
+                 </div>
               </div>
-          </div>
-      </section>
-  
-      <div class="navbar-section">
-          <div class="content-section">
+           </div>
+        </section>
+        <div class="navbar-section">
+           <div class="content-section">
               <nav class="navbar navbar-expand">
-                  <ul class="navbar-nav">
-                      <li class="nav-item active">
-                          <a href="index.html" class="nav-link text-uppercase">Home</a>
-                      </li>
-                      <li class="nav-item">
-                          <a href="login.html" class="nav-link text-uppercase">PCB</a>
-                      </li>
-                      <li class="nav-item">
-                          <a href="training.html" class="nav-link text-uppercase">Training</a>
-                      </li>
-                      <!--<li class="nav-item">
-                          <a href="" class="nav-link text-uppercase">Corporate Order</a>
-                      </li>
-                      <li class="nav-item">
-                          <a href="" class="nav-link text-uppercase">International Sourcing</a>
-                      </li> -->
-                      <li class="nav-item">
-                          <a href="https://blog.techshopbd.com/" class="nav-link text-uppercase" target="_blank">Blog</a>
-                      </li>
-                  </ul>
+                 <ul class="navbar-nav">
+                    <li class="nav-item active">
+                       <a href="/" class="nav-link text-uppercase">Home</a>
+                    </li>
+                    <li class="nav-item">
+                       <a href="login.html" class="nav-link text-uppercase">PCB</a>
+                    </li>
+                    <li class="nav-item">
+                       <a href="training" class="nav-link text-uppercase">Training</a>
+                    </li>
+                    <!--<li class="nav-item">
+                       <a href="" class="nav-link text-uppercase">Corporate Order</a>
+                       </li>
+                       <li class="nav-item">
+                       <a href="" class="nav-link text-uppercase">International Sourcing</a>
+                       </li> -->
+                    <li class="nav-item">
+                       <a href="https://blog.techshopbd.com/" class="nav-link text-uppercase" target="_blank">Blog</a>
+                    </li>
+                 </ul>
               </nav>
-          </div>
-      </div>
+           </div>
+        </div>
+     </header>
+     
+     
   
-  </header>
   
   @yield('content')
 
@@ -227,23 +227,23 @@
               <div class="footer-menu">
                   <p class="title">Policies</p>
                   <ul class="footer-menu-item">
-                      <li><a href="terms-conditions.html"><i class="fa fa-circle-o"></i>Terms & conditions</a></li>
-                      <li><a href="privacy-policy.html"><i class="fa fa-circle-o"></i>Privacy policy</a></li>
-                      <li><a href="warranty-and-replacement.html"><i class="fa fa-circle-o"></i>Warranty & replacement</a></li>
+                      <li><a href="terms-conditions"><i class="fa fa-circle-o"></i>Terms & conditions</a></li>
+                      <li><a href="privacy-policy"><i class="fa fa-circle-o"></i>Privacy policy</a></li>
+                      <li><a href="warranty-and-replacement"><i class="fa fa-circle-o"></i>Warranty & replacement</a></li>
                   </ul>
                   <p class="title mt-3">Get to Know Us</p>
                   <ul class="footer-menu-item">
-                      <li><a href="about-us.html"><i class="fa fa-circle-o"></i>About us</a></li>
+                      <li><a href="about-us"><i class="fa fa-circle-o"></i>About us</a></li>
                   </ul>
               </div>
               <div class="footer-menu">
                   <p class="title">Support</p>
                   <ul class="footer-menu-item">
                       <li><a href="contact-us.html"><i class="fa fa-circle-o"></i>Contact us</a></li>
-                      <li><a href="support/order-place.html"><i class="fa fa-circle-o"></i>How to place order</a></li>
-                      <li><a href="support/sourcing-product.html"><i class="fa fa-circle-o"></i>Sourcing new product</a></li>
-                      <li><a href="support/technical-assistance.html"><i class="fa fa-circle-o"></i>Technical assistance</a></li>
-                      <li><a href="faq.html"><i class="fa fa-circle-o"></i>FAQ</a></li>
+                      <li><a href="order-place"><i class="fa fa-circle-o"></i>How to place order</a></li>
+                      <li><a href="sourcing-product"><i class="fa fa-circle-o"></i>Sourcing new product</a></li>
+                      <li><a href="technical-assistance"><i class="fa fa-circle-o"></i>Technical assistance</a></li>
+                      <li><a href="faq"><i class="fa fa-circle-o"></i>FAQ</a></li>
                   </ul>
               </div>
               <div class="fb-page mr-0" data-href="https://www.facebook.com/TechShop-BD" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
